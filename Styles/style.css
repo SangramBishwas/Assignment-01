@@ -68,5 +68,34 @@ margin-top: 0;
   height: 500px;
 }
 .one{
+  margin: 100px 0;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/vector.png');
+  width: 1320px;
+  height: 600px;
+  border-radius: 10px;
+}
+.party{
+  padding: 50px 100px;
+}
+.party h3{
+  color: #FFF;
+  font-family:'Merriweather', serif; 
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.party p{
+  color: hwb(0 100% 0% / 0.8);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.party button{
+  color: #FFF;
+  background: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
 }
