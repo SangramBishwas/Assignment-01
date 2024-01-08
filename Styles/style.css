@@ -1,8 +1,11 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 body{
-  margin: 50px 150px 0 150px;
+  margin: 50px 100px;
 }
+
+      /* Header Design */
+
 .banner{
   width: 1320px;
   height: 600px;
@@ -26,5 +29,44 @@ color: #fff;
 font-size: 65px;
 font-family:'Merriweather', serif;
 font-weight: 900;
-margin: 0 0 0 50px;
+margin-bottom: 50px;
+}
+    
+/* Section Aria Design */
+
+.discount{
+  margin: 50px 300px;
+}
+.discount h1{
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.discount > p{
+  color: #F00;
+  text-align: center;
+  font-family:'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.discount h3{
+color: #070211;
+text-align: center;
+font-family:'Inter', sans-serif;
+font-size: 45px;
+font-weight: 700;
+margin-top: 0;
+}
+
+.discount img{
+  width: 800px;
+  height: 500px;
+}
+.one{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/vector.png');
 }
