@@ -36,6 +36,7 @@ margin-bottom: 50px;
 
 .discount{
   margin: 50px 300px;
+  text-align: center;
 }
 .discount h1{
   color: #F00;
@@ -45,18 +46,16 @@ margin-bottom: 50px;
   font-weight: 700;
   margin-bottom: 40px;
 }
-.discount > p{
+.red{
   color: #F00;
-  text-align: center;
   font-family:'Inter', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.discount h3{
+.head3{
 color: #070211;
-text-align: center;
 font-family:'Inter', sans-serif;
 font-size: 45px;
 font-weight: 700;
@@ -85,7 +84,7 @@ margin-top: 0;
   margin-bottom: 25px;
 }
 .party p{
-  color: hwb(0 100% 0% / 0.8);
+  color: #ffffffcc;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -119,7 +118,7 @@ margin-top: 0;
   margin-bottom: 5px;
 }
 
-.event .meet{
+.meet{
   color: #F00;
   font-family:'Inter', sans-serif;
   font-size: 32px;
@@ -139,4 +138,36 @@ margin-top: 0;
   padding: 15px 30px;
   border-style: none;
   cursor: pointer;
+}
+.three{
+  display: flex;
+  margin-top: 100px;
+}
+.offer p{
+  color: #07021199;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.round{
+  margin-left: 75px;
+}
+
+.round img{
+  border: 15px solid #F00;;
+  border-radius: 100%;
+  padding: 50px;
+}
+
+.hpn{
+  margin-left: 150px;
+}
+
+.hpn p{
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
