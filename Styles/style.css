@@ -193,13 +193,12 @@ margin-bottom: 20px;
 .product{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
 }
 .item img{
   width: 375px;
   height: 425px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin: 0 0 25px 20px;
 }
 
 .item img:hover {
