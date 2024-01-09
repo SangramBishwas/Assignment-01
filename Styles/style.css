@@ -1,7 +1,7 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 body{
-  margin: 50px 100px;
+  margin: 25px 100px;
 }
 
       /* Header Design */
@@ -33,7 +33,9 @@ margin-bottom: 50px;
 }
     
 /* Section Aria Design */
-
+section{
+  margin-top: 50px;
+}
 .discount{
   margin: 50px 300px;
   text-align: center;
@@ -74,6 +76,7 @@ margin-top: 0;
   border-radius: 10px;
 }
 .party{
+  display: flex;
   padding: 60px 120px;
 }
 .party h3{
@@ -90,19 +93,21 @@ margin-top: 0;
   font-weight: 400;
   margin-top: 0;
 }
-.party button{
+.btn {
   color: #FFF;
   background: none;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin-top: 75px;
+  margin-top: 70px;
   border-style: none;
   cursor: pointer;
 }
 
 .two{
   background: #FFF8F3;
+  margin-top: 50px;
+
 }
 
 .event{
@@ -141,8 +146,9 @@ margin-top: 0;
 }
 .three{
   display: flex;
-  margin-top: 100px;
+  margin-top: 50px;
 }
+
 .offer p{
   color: #07021199;
   font-family: 'Inter', sans-serif;
@@ -165,9 +171,31 @@ margin-top: 0;
   margin-left: 150px;
 }
 
-.hpn p{
+.hpn .paragraph{
   color: #07021199;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
 }
+
+.four{
+  margin-top: 50px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item img{
+  width: 375px;
+  height: 425px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.item img:hover {
+  border: 2px solid #ff0000;
+  border-radius: 16px;
+}
+
